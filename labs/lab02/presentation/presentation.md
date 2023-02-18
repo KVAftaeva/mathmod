@@ -2,7 +2,7 @@
 ## Front matter
 lang: ru-RU
 title: Лабораторная работа №2
-subtitle: Задача о погоне.
+subtitle: Задача о погоне
 author:
   - Афтаева К.В.
 institute:
