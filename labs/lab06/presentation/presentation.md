@@ -87,16 +87,15 @@ header-includes:
 # Выполнение работы
 
 ## Изучение теории
-
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
 
 Если $I(0) \leq I^*$, то 
 
-	$$
-   		\begin{cases}
-    	 \frac{dS}{dt} = 0
-     	 \\
+$$
+   	\begin{cases}
+    	\frac{dS}{dt} = 0
+     	\\
      	 \frac{dI}{dt} = - \beta I
 	 	 \\
 	 	 \frac{dR}{dt} = \beta I
@@ -106,9 +105,9 @@ header-includes:
 :::
 ::: {.column width="50%"}
 
-  Если $I(0) > I^*$ 
+Если $I(0) > I^*$ 
 
-	$$
+$$
    		\begin{cases}
      	 \frac{dS}{dt} = -\alpha S
      	 \\
@@ -122,16 +121,16 @@ header-includes:
 ::::::::::::::
 
 ## Написание кода для первого случая
-
-Фрагмент кода на Julia и код на OpenModelica:
-
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
+Фрагмент кода на Julia
 
 ![](image/code_jl.png)
 
 :::
 ::: {.column width="50%"}
+
+Код на OpenModelica
 
 ![](image/code_om.png)
 :::
@@ -142,10 +141,14 @@ header-includes:
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
 
+Из Julia
+
 ![](image/first.png)
 
 :::
 ::: {.column width="50%"}
+
+Из OpenModelica
 
 ![](image/first_om.png)
 :::
@@ -157,16 +160,15 @@ header-includes:
 
 
 ## Написание кода для второго случая
-
-Фрагмент кода на Julia и код на OpenModelica:
-
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
-
+Фрагмент кода на Julia
 ![](image/code2_jl.png)
 
 :::
 ::: {.column width="50%"}
+
+Код на OpenModelica
 
 ![](image/code2_om.png)
 :::
@@ -177,11 +179,13 @@ header-includes:
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
 
+Из Julia
 ![](image/second.png)
 
 :::
 ::: {.column width="50%"}
 
+Из OpenModelica
 ![](image/second_om.png)
 :::
 ::::::::::::::
